@@ -1,1 +1,55 @@
 /* Your CSS here. */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.card {
+  width: 450px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #dceeff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 25px;
+}
+
+.card p {
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.card a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
