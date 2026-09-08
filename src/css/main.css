@@ -15,7 +15,7 @@ body {
 }
 
 .profile-card {
-  width: 450px;
+  width: 480px;
   padding: 40px;
   background-color: #dce8f0;
   border: 1px solid #c4d1da;
@@ -37,7 +37,7 @@ body {
   margin: 0 auto 24px;
 
   object-fit: cover;
-  object-position: 55% center;
+  object-position: 60% center;
   border-radius: 50%;
   border: 3px solid white;
 }
