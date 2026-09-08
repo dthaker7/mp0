@@ -37,6 +37,7 @@ body {
   margin: 0 auto 24px;
 
   object-fit: cover;
+  object-position: 55% center;
   border-radius: 50%;
   border: 3px solid white;
 }
