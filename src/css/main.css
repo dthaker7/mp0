@@ -1,55 +1,74 @@
-/* Your CSS here. */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: white;
-  font-family: Arial, sans-serif;
   margin: 0;
+  min-height: 100vh;
+  background-color: #f7f6f2;
+  color: #1b2430;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card {
+.profile-card {
   width: 450px;
-  margin: 80px auto;
   padding: 40px;
-  background-color: #dceeff;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #dce8f0;
+  border: 1px solid #c4d1da;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(27, 36, 48, 0.12);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+.profile-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(27, 36, 48, 0.18);
 }
 
-.card img {
+.profile-card__photo {
+  display: block;
   width: 150px;
   height: 150px;
-  display: block;
-  margin: 0 auto 20px;
-  border-radius: 50%;
+  margin: 0 auto 24px;
+
   object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
 }
 
-.card h1 {
+.profile-card h1 {
+  margin: 0;
   text-align: center;
-  margin: 10px 0;
+  font-size: 32px;
 }
 
-.card h2 {
+.profile-card h2 {
+  margin: 8px 0 24px;
   text-align: center;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 0 25px;
+  color: #2c5c82;
 }
 
-.card p {
+.profile-card p {
+  margin: 0 0 24px;
   line-height: 1.6;
-  text-align: left;
-  margin-bottom: 25px;
+  color: #4b5563;
 }
 
-.card a {
+.profile-card__link {
   display: block;
   text-align: center;
+  color: #1e3f59;
   font-weight: bold;
   text-decoration: none;
+}
+
+.profile-card__link:hover {
+  text-decoration: underline;
 }
